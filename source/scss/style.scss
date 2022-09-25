@@ -31,7 +31,7 @@
         margin: 0 30px;
         &:hover {
             padding: 8px 15px;
-            border-radius: 5%;
+            border-radius: 12%;
             background-color: #643a79;
             margin: 0 15px;
         }
@@ -177,8 +177,6 @@
 
 .team {
     height: 915px;
-
-    max-height: 915px;
     background-color: #e7f1f8;
 
     &__body {
@@ -209,7 +207,7 @@
     &__column {
         flex: 0 0 25%;
         max-width: 400px;
-        margin: 0 100px 0 100px;
+        margin: 0 70px 0 70px;
         max-width: 230px;
     }
 }
@@ -221,6 +219,12 @@
         width: 200px;
         height: 200px;
         border-radius: 100%;
+        margin-left: 15px;
+        // filter: grayscale(1);
+        // transition: all 0.5s ease 0s;
+        // &:hover {
+        //     filter: grayscale(0);
+        // }
     }
 
     &__title {
@@ -275,5 +279,384 @@
 
     &__icons4 {
         margin: 0 7px 0 7px;
+    }
+}
+
+.skills {
+    background-color: #ffffff;
+    height: 655px;
+
+    &__body {
+    }
+
+    &__header {
+    }
+
+    &__title {
+        color: #3c4761;
+        &::after {
+            background-color: #dfe8ed;
+        }
+    }
+
+    &__subtitle {
+        color: #3c4761;
+    }
+
+    &__row {
+        display: flex;
+        margin-left: -55px;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: -38px;
+    }
+
+    &__column {
+        flex: 0 0 25%;
+        margin: 0 55px 0 55px;
+        max-width: 250px;
+    }
+}
+
+.item-skills {
+    margin-left: 75px;
+    &__graphics {
+        color: #3c4761;
+        font-family: "Titillium Web";
+        font-size: 50px;
+        font-weight: 300;
+        line-height: 20.84px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.86px;
+        margin-top: 20px;
+    }
+
+    .item-skills__ring1 {
+        &::before {
+            content: url("/img/rings/greyring.png");
+            position: relative;
+            bottom: -95px;
+            left: -8px;
+        }
+        &::after {
+            content: url("/img/rings/bluering.png");
+            position: relative;
+            top: -86px;
+            left: -8px;
+        }
+    }
+
+    .item-skills__ring2 {
+        &::before {
+            content: url("/img/rings/greyring.png");
+            position: relative;
+            bottom: -95px;
+            left: -8px;
+        }
+        &::after {
+            content: url("/img/rings/purplering.png");
+            position: relative;
+            top: -86px;
+            left: -8px;
+        }
+    }
+
+    .item-skills__ring3 {
+        &::before {
+            content: url("/img/rings/greyring.png");
+            position: relative;
+            bottom: -95px;
+            left: -8px;
+        }
+        &::after {
+            content: url("/img/rings/greenring.png");
+            position: relative;
+            top: -86px;
+            left: -8px;
+        }
+    }
+
+    .item-skills__ring4 {
+        &::before {
+            content: url("/img/rings/greyring.png");
+            position: relative;
+            bottom: -95px;
+            left: -8px;
+        }
+        &::after {
+            content: url("/img/rings/orangering.png");
+            position: relative;
+            top: -86px;
+            left: -8px;
+        }
+    }
+
+    &__subtitle {
+        color: #3c4761;
+        font-family: "Titillium Web";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.48px;
+        white-space: nowrap;
+        position: relative;
+        top: -45px;
+        left: -4px;
+    }
+}
+
+.portfolio {
+    height: 1420px;
+    background-color: #ffdd99;
+
+    &__body {
+        max-width: 1200px;
+        margin: 0px auto;
+        min-width: 1200px;
+    }
+
+    &__header {
+    }
+
+    &__title {
+        color: #393939;
+        &::after {
+            background-color: #e5c37f;
+        }
+    }
+
+    &__subtitle {
+        color: #393939;
+    }
+
+    &__nav {
+        display: inline-block;
+        margin-top: 40px;
+        font-family: "Titillium Web";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__nav-item {
+        color: #393939;
+        border-radius: 12%;
+        padding: 8px 20px;
+        background-color: #ebcb8d;
+        margin: 0 15px;
+        &:hover {
+            background-color: white;
+        }
+    }
+
+    &__row1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 62px;
+    }
+
+    &__column1 {
+        flex: 0 0 50%;
+        margin-top: 75px;
+    }
+
+    &__row2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__column2 {
+        flex: 0 0 50%;
+        margin-bottom: 90px;
+    }
+
+    &__button {
+        background-color: #17c2a4;
+        border-bottom: 5px solid #14a58b;
+        margin-left: 450px;
+
+        &:active {
+            background-color: #0e9e84;
+            color: rgb(175, 174, 174);
+        }
+    }
+}
+
+.item-portfolio {
+    &__pc {
+        padding: 0 30px;
+    }
+
+    &__title {
+        color: #393939;
+        font-family: "Titillium Web";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 0.36px;
+        margin-top: 30px;
+    }
+}
+
+.about {
+    height: 950px;
+    background-color: #d74680;
+    &__body {
+        max-width: 1400px;
+        margin: 0px auto;
+        min-width: 1200px;
+    }
+
+    &__header {
+    }
+
+    &__title {
+        color: #ffffff;
+        font-family: "Titillium Web";
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 29.91px;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        &::after {
+            background-color: #b73b6d;
+        }
+    }
+
+    &__subtitle {
+        margin-bottom: 70px;
+    }
+
+    &__row1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 155px;
+    }
+
+    &__column1 {
+        flex: 0 0 50%;
+    }
+
+    &__row2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__column2 {
+        flex: 0 0 50%;
+    }
+}
+
+.item-about {
+    position: relative;
+    left: 90px;
+    &__photo {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+        margin-right: 45px;
+    }
+
+    // &__photo1 {
+    // }
+
+    // &__photo2 {
+    // }
+
+    // &__photo3 {
+    // }
+
+    // &__photo4 {
+    // }
+
+    &__text {
+        max-width: 390px;
+        color: #ffffff;
+        font-family: "Titillium Web";
+        font-size: 21px;
+        font-style: italic;
+        line-height: 31.2px;
+        text-align: left;
+        letter-spacing: 0.35px;
+        display: inline-block;
+        margin-right: 93px;
+    }
+
+    &__title {
+        color: #ffffff;
+        font-family: "Titillium Web";
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 18px;
+        text-align: left;
+        text-transform: uppercase;
+        letter-spacing: 0.48px;
+        margin-left: 190px;
+    }
+
+    &__subtitle {
+        color: #ffdd99;
+        font-family: "Titillium Web";
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: left;
+        letter-spacing: 0.36px;
+        margin-left: 190px;
+    }
+}
+
+.touch {
+    &__body {
+    }
+
+    &__header {
+    }
+
+    &__titile {
+    }
+
+    &__subtitle {
+    }
+
+    &__textarea {
+    }
+
+    &__name {
+    }
+
+    &__email {
+    }
+
+    &__message {
+    }
+
+    &__button {
+    }
+}
+
+.footer {
+    &__body {
+    }
+
+    &__nav {
+    }
+
+    &__nav-item {
     }
 }
