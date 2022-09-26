@@ -325,7 +325,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills {
-  display: none;
   background-color: #ffffff;
   height: 655px;
 }
@@ -375,8 +374,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 20px;
 }
 .item-skills .item-skills__ring1::before {
-  content: "";
-  background: url("https://i.imgur.com/GIMfa1H.png");
+  content: url("https://i.imgur.com/GIMfa1H.png");
   position: relative;
   bottom: -95px;
   left: -8px;

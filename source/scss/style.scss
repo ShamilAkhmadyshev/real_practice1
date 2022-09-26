@@ -283,7 +283,6 @@
 }
 
 .skills {
-    display: none;
     background-color: #ffffff;
     height: 655px;
 
@@ -336,8 +335,7 @@
 
     .item-skills__ring1 {
         &::before {
-            content: "";
-            background: url("https://i.imgur.com/GIMfa1H.png");
+            content: url("https://i.imgur.com/GIMfa1H.png");
             position: relative;
             bottom: -95px;
             left: -8px;
