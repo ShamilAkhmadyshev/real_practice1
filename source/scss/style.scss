@@ -335,7 +335,8 @@
 
     .item-skills__ring1 {
         &::before {
-            content: url("https://i.imgur.com/GIMfa1H.png");
+            content: "";
+            background: url("https://i.imgur.com/GIMfa1H.png");
             position: relative;
             bottom: -95px;
             left: -8px;
