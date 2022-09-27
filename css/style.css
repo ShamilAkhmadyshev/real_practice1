@@ -88,7 +88,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .top__nav {
   display: inline-block;
-  margin-top: 74px;
+  margin-top: 24px;
   margin-left: 400px;
   font-family: "Titillium Web";
   font-size: 16px;
@@ -646,7 +646,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .touch {
-  height: 820px;
+  height: 830px;
   background-color: #3c5499;
 }
 .touch__body {
